@@ -12,6 +12,19 @@
 		B335C03E1BB01A7D00C27E98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B335C03D1BB01A7D00C27E98 /* Images.xcassets */; };
 		B335C0411BB01A7D00C27E98 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B335C03F1BB01A7D00C27E98 /* MainMenu.xib */; };
 		B335C04D1BB01A7D00C27E98 /* ScaryBugsMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B335C04C1BB01A7D00C27E98 /* ScaryBugsMacTests.m */; };
+		B335C05E1BB01FF400C27E98 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B335C05C1BB01FF400C27E98 /* MasterViewController.m */; };
+		B335C05F1BB01FF400C27E98 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B335C05D1BB01FF400C27E98 /* MasterViewController.xib */; };
+		B335C0641BB02D4200C27E98 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = B335C0631BB02D4200C27E98 /* ScaryBugData.m */; };
+		B335C0671BB02DA400C27E98 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B335C0661BB02DA400C27E98 /* ScaryBugDoc.m */; };
+		B335C0721BB02E6E00C27E98 /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = B335C0691BB02E6E00C27E98 /* attribution.txt */; };
+		B335C0731BB02E6E00C27E98 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C06A1BB02E6E00C27E98 /* centipede.jpg */; };
+		B335C0741BB02E6E00C27E98 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C06B1BB02E6E00C27E98 /* centipedeThumb.jpg */; };
+		B335C0751BB02E6E00C27E98 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C06C1BB02E6E00C27E98 /* ladybug.jpg */; };
+		B335C0761BB02E6E00C27E98 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C06D1BB02E6E00C27E98 /* ladybugThumb.jpg */; };
+		B335C0771BB02E6E00C27E98 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C06E1BB02E6E00C27E98 /* potatoBug.jpg */; };
+		B335C0781BB02E6E00C27E98 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C06F1BB02E6E00C27E98 /* potatoBugThumb.jpg */; };
+		B335C0791BB02E6E00C27E98 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C0701BB02E6E00C27E98 /* wolfSpider.jpg */; };
+		B335C07A1BB02E6E00C27E98 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C0711BB02E6E00C27E98 /* wolfSpiderThumb.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,22 @@
 		B335C0461BB01A7D00C27E98 /* ScaryBugsMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B335C04B1BB01A7D00C27E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B335C04C1BB01A7D00C27E98 /* ScaryBugsMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsMacTests.m; sourceTree = "<group>"; };
+		B335C05B1BB01FF400C27E98 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B335C05C1BB01FF400C27E98 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B335C05D1BB01FF400C27E98 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		B335C0621BB02D4200C27E98 /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
+		B335C0631BB02D4200C27E98 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
+		B335C0651BB02DA400C27E98 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
+		B335C0661BB02DA400C27E98 /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
+		B335C0691BB02E6E00C27E98 /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
+		B335C06A1BB02E6E00C27E98 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		B335C06B1BB02E6E00C27E98 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		B335C06C1BB02E6E00C27E98 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		B335C06D1BB02E6E00C27E98 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		B335C06E1BB02E6E00C27E98 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		B335C06F1BB02E6E00C27E98 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		B335C0701BB02E6E00C27E98 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		B335C0711BB02E6E00C27E98 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 		B335C02A1BB01A7D00C27E98 = {
 			isa = PBXGroup;
 			children = (
+				B335C0681BB02E6E00C27E98 /* ScaryBugs */,
 				B335C0351BB01A7D00C27E98 /* ScaryBugsMac */,
 				B335C0491BB01A7D00C27E98 /* ScaryBugsMacTests */,
 				B335C0341BB01A7D00C27E98 /* Products */,
@@ -76,10 +106,9 @@
 		B335C0351BB01A7D00C27E98 /* ScaryBugsMac */ = {
 			isa = PBXGroup;
 			children = (
-				B335C0381BB01A7D00C27E98 /* AppDelegate.h */,
-				B335C0391BB01A7D00C27E98 /* AppDelegate.m */,
+				B335C0611BB02A3000C27E98 /* Model */,
+				B335C0601BB029F400C27E98 /* GUI */,
 				B335C03D1BB01A7D00C27E98 /* Images.xcassets */,
-				B335C03F1BB01A7D00C27E98 /* MainMenu.xib */,
 				B335C0361BB01A7D00C27E98 /* Supporting Files */,
 			);
 			path = ScaryBugsMac;
@@ -109,6 +138,46 @@
 				B335C04B1BB01A7D00C27E98 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B335C0601BB029F400C27E98 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				B335C03F1BB01A7D00C27E98 /* MainMenu.xib */,
+				B335C0381BB01A7D00C27E98 /* AppDelegate.h */,
+				B335C0391BB01A7D00C27E98 /* AppDelegate.m */,
+				B335C05B1BB01FF400C27E98 /* MasterViewController.h */,
+				B335C05C1BB01FF400C27E98 /* MasterViewController.m */,
+				B335C05D1BB01FF400C27E98 /* MasterViewController.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		B335C0611BB02A3000C27E98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B335C0621BB02D4200C27E98 /* ScaryBugData.h */,
+				B335C0631BB02D4200C27E98 /* ScaryBugData.m */,
+				B335C0651BB02DA400C27E98 /* ScaryBugDoc.h */,
+				B335C0661BB02DA400C27E98 /* ScaryBugDoc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B335C0681BB02E6E00C27E98 /* ScaryBugs */ = {
+			isa = PBXGroup;
+			children = (
+				B335C0691BB02E6E00C27E98 /* attribution.txt */,
+				B335C06A1BB02E6E00C27E98 /* centipede.jpg */,
+				B335C06B1BB02E6E00C27E98 /* centipedeThumb.jpg */,
+				B335C06C1BB02E6E00C27E98 /* ladybug.jpg */,
+				B335C06D1BB02E6E00C27E98 /* ladybugThumb.jpg */,
+				B335C06E1BB02E6E00C27E98 /* potatoBug.jpg */,
+				B335C06F1BB02E6E00C27E98 /* potatoBugThumb.jpg */,
+				B335C0701BB02E6E00C27E98 /* wolfSpider.jpg */,
+				B335C0711BB02E6E00C27E98 /* wolfSpiderThumb.jpg */,
+			);
+			path = ScaryBugs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +261,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B335C03E1BB01A7D00C27E98 /* Images.xcassets in Resources */,
+				B335C07A1BB02E6E00C27E98 /* wolfSpiderThumb.jpg in Resources */,
+				B335C0751BB02E6E00C27E98 /* ladybug.jpg in Resources */,
 				B335C0411BB01A7D00C27E98 /* MainMenu.xib in Resources */,
+				B335C0731BB02E6E00C27E98 /* centipede.jpg in Resources */,
+				B335C0721BB02E6E00C27E98 /* attribution.txt in Resources */,
+				B335C0791BB02E6E00C27E98 /* wolfSpider.jpg in Resources */,
+				B335C0741BB02E6E00C27E98 /* centipedeThumb.jpg in Resources */,
+				B335C05F1BB01FF400C27E98 /* MasterViewController.xib in Resources */,
+				B335C0761BB02E6E00C27E98 /* ladybugThumb.jpg in Resources */,
+				B335C0781BB02E6E00C27E98 /* potatoBugThumb.jpg in Resources */,
+				B335C0771BB02E6E00C27E98 /* potatoBug.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B335C0671BB02DA400C27E98 /* ScaryBugDoc.m in Sources */,
 				B335C03C1BB01A7D00C27E98 /* main.m in Sources */,
+				B335C05E1BB01FF400C27E98 /* MasterViewController.m in Sources */,
 				B335C03A1BB01A7D00C27E98 /* AppDelegate.m in Sources */,
+				B335C0641BB02D4200C27E98 /* ScaryBugData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
