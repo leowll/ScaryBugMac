@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MasterViewController.h
 //  ScaryBugsMac
 //
 //  Created by 王亮亮 on 15/9/21.
@@ -7,10 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
-
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
-
+@interface MasterViewController : NSViewController
+@property (strong) NSMutableArray *bugs;
 @end
-
