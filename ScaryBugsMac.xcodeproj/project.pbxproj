@@ -25,6 +25,11 @@
 		B335C0781BB02E6E00C27E98 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C06F1BB02E6E00C27E98 /* potatoBugThumb.jpg */; };
 		B335C0791BB02E6E00C27E98 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C0701BB02E6E00C27E98 /* wolfSpider.jpg */; };
 		B335C07A1BB02E6E00C27E98 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B335C0711BB02E6E00C27E98 /* wolfSpiderThumb.jpg */; };
+		B335C0831BB242E900C27E98 /* EDStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = B335C07D1BB242E900C27E98 /* EDStarRating.m */; };
+		B335C0841BB242E900C27E98 /* NSImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = B335C07F1BB242E900C27E98 /* NSImage+Extras.m */; };
+		B335C0851BB242E900C27E98 /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = B335C0801BB242E900C27E98 /* shockedface2_empty.png */; };
+		B335C0861BB242E900C27E98 /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = B335C0811BB242E900C27E98 /* shockedface2_full.png */; };
+		B335C0871BB242E900C27E98 /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = B335C0821BB242E900C27E98 /* shockedface2_half.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,13 @@
 		B335C06F1BB02E6E00C27E98 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
 		B335C0701BB02E6E00C27E98 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
 		B335C0711BB02E6E00C27E98 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		B335C07C1BB242E900C27E98 /* EDStarRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDStarRating.h; path = MacApp2ExtraStuff/EDStarRating.h; sourceTree = "<group>"; };
+		B335C07D1BB242E900C27E98 /* EDStarRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EDStarRating.m; path = MacApp2ExtraStuff/EDStarRating.m; sourceTree = "<group>"; };
+		B335C07E1BB242E900C27E98 /* NSImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+Extras.h"; path = "MacApp2ExtraStuff/NSImage+Extras.h"; sourceTree = "<group>"; };
+		B335C07F1BB242E900C27E98 /* NSImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Extras.m"; path = "MacApp2ExtraStuff/NSImage+Extras.m"; sourceTree = "<group>"; };
+		B335C0801BB242E900C27E98 /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shockedface2_empty.png; path = MacApp2ExtraStuff/shockedface2_empty.png; sourceTree = "<group>"; };
+		B335C0811BB242E900C27E98 /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shockedface2_full.png; path = MacApp2ExtraStuff/shockedface2_full.png; sourceTree = "<group>"; };
+		B335C0821BB242E900C27E98 /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shockedface2_half.png; path = MacApp2ExtraStuff/shockedface2_half.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,9 @@
 		B335C0351BB01A7D00C27E98 /* ScaryBugsMac */ = {
 			isa = PBXGroup;
 			children = (
+				B335C08A1BB2435E00C27E98 /* Views */,
+				B335C0891BB2434B00C27E98 /* Helpers */,
+				B335C0881BB2434500C27E98 /* Art */,
 				B335C0611BB02A3000C27E98 /* Model */,
 				B335C0601BB029F400C27E98 /* GUI */,
 				B335C03D1BB01A7D00C27E98 /* Images.xcassets */,
@@ -178,6 +193,37 @@
 				B335C0711BB02E6E00C27E98 /* wolfSpiderThumb.jpg */,
 			);
 			path = ScaryBugs;
+			sourceTree = "<group>";
+		};
+		B335C0881BB2434500C27E98 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				B335C0801BB242E900C27E98 /* shockedface2_empty.png */,
+				B335C0811BB242E900C27E98 /* shockedface2_full.png */,
+				B335C0821BB242E900C27E98 /* shockedface2_half.png */,
+			);
+			name = Art;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B335C0891BB2434B00C27E98 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B335C07E1BB242E900C27E98 /* NSImage+Extras.h */,
+				B335C07F1BB242E900C27E98 /* NSImage+Extras.m */,
+			);
+			name = Helpers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B335C08A1BB2435E00C27E98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B335C07C1BB242E900C27E98 /* EDStarRating.h */,
+				B335C07D1BB242E900C27E98 /* EDStarRating.m */,
+			);
+			name = Views;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +318,9 @@
 				B335C0761BB02E6E00C27E98 /* ladybugThumb.jpg in Resources */,
 				B335C0781BB02E6E00C27E98 /* potatoBugThumb.jpg in Resources */,
 				B335C0771BB02E6E00C27E98 /* potatoBug.jpg in Resources */,
+				B335C0861BB242E900C27E98 /* shockedface2_full.png in Resources */,
+				B335C0851BB242E900C27E98 /* shockedface2_empty.png in Resources */,
+				B335C0871BB242E900C27E98 /* shockedface2_half.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +341,9 @@
 				B335C0671BB02DA400C27E98 /* ScaryBugDoc.m in Sources */,
 				B335C03C1BB01A7D00C27E98 /* main.m in Sources */,
 				B335C05E1BB01FF400C27E98 /* MasterViewController.m in Sources */,
+				B335C0831BB242E900C27E98 /* EDStarRating.m in Sources */,
 				B335C03A1BB01A7D00C27E98 /* AppDelegate.m in Sources */,
+				B335C0841BB242E900C27E98 /* NSImage+Extras.m in Sources */,
 				B335C0641BB02D4200C27E98 /* ScaryBugData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +534,7 @@
 				B335C0521BB01A7D00C27E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B335C0531BB01A7D00C27E98 /* Build configuration list for PBXNativeTarget "ScaryBugsMacTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +543,7 @@
 				B335C0551BB01A7D00C27E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
